@@ -6,7 +6,7 @@ This repo contains the simplest possible HawkScan configuration. All you need to
 
 This repo contains the following active ingredients:
 - `stackhawk.yml`: A minimal StackHawk HawkScan configuration, including application ID, target host, and environment name.
-- `docker-compose.yml`: A Docker Compose file to codify a HawkScan run. It pulls the HawkScan container and runs it with environment variables you supply to pass along your application ID and API key.
+- `docker-compose.yml`: A Docker Compose file to codify a HawkScan run against http://example.com. It pulls the HawkScan container and runs it with environment variables you supply to pass along your application ID and API key.
 
 ## Running
 
