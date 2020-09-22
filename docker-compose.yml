@@ -1,0 +1,15 @@
+version: "3.7"
+
+services:
+  hawkscan:
+    image: stackhawk/hawkscan
+    network_mode: host
+    environment:
+      - API_KEY
+      - APP_ID
+      - ENV
+    volumes:
+      - type: bind
+        source: .
+        target: /hawk
+    tty: true
