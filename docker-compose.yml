@@ -5,9 +5,9 @@ services:
     image: stackhawk/hawkscan
     network_mode: host
     environment:
-      - API_KEY
-      - APP_ID
-      - ENV
+      - API_KEY=$HAWK_API_KEY
+      - HAWK_APP_ID
+      - HAWK_ENV
     volumes:
       - type: bind
         source: .

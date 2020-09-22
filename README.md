@@ -19,8 +19,8 @@ This repo contains the following active ingredients:
     ```
 1. Export your API Key and Application as environment variables.
     ```
-    export API_KEY=<your API key here>
-    export APP_ID=<your App ID here>
+    export HAWK_API_KEY=<your API key here>
+    export HAWK_APP_ID=<your App ID here>
     ```
 1. Run HawkScan!
     ```

@@ -1,4 +1,4 @@
 app:
-  applicationId: ${APP_ID}
-  host: ${HOST:http://example.com}
-  env: ${ENV:Develop}
+  applicationId: ${HAWK_APP_ID}
+  host: ${HAWK_HOST:http://example.com}
+  env: ${HAWK_ENV:Develop}
